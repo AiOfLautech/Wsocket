@@ -1,0 +1,22 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "description": "Real-time discussion server with WebSockets",
+  "main": "ws-server.js",
+  "scripts": {
+    "start": "node ws-server.js",
+    "dev": "nodemon ws-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
